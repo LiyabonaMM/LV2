@@ -1,5 +1,4 @@
-/* Montek Creative Agency Business HTML-5 Template */
-
+/* L. Studios *
 /************ TABLE OF CONTENTS ***************
 1. Fonts
 2. Reset
@@ -313,116 +312,89 @@
 /*** 
 
 ====================================================================
-	journal One
+	Pricing
 ====================================================================
 
 ***/
-
-.journal-one{
-	position:relative;
-	padding:100px 0px 70px;
-	background-attachment:fixed;
-	background-size:cover;
+/* Pricing Section */
+.pricing {
+    position: relative;
+    padding: 100px 0px 70px;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-.journal-one:before{
-	position:absolute;
-	content:'';
-	left:0px;
-	top:0px;
-	right:0px;
-	bottom:0px;
-	opacity:0.70;
-	background-color:var(--color-four);
+.pricing:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.70;
+    background-color: var(--color-four);
 }
 
-.journal-one .journal-block_one{
-	width:20%;
-	float:left;
-	padding:0px 15px;
+.pricing .pricing-block {
+    width: 30%;
+    float: left;
+    padding: 0px 15px;
 }
 
-.journal-block_one{
-	position:relative;
-	margin-bottom:30px;
+.pricing-block {
+    position: relative;
+    margin-bottom: 30px;
 }
 
-.journal-block_one-inner{
-	position:relative;
-	padding:25px 25px;
-	background-color:rgba(var(--black-color-rgb), 0.50);
+.pricing-block-inner {
+    position: relative;
+    padding: 25px 25px;
+    background-color: rgba(var(--black-color-rgb), 0.50);
 }
 
-.journal-block_one-inner:before{
-	position:absolute;
-	content:'';
-	left:-1px;
-	top:-1px;
-	right:-1px;
-	bottom:-1px;
-	opacity:0;
-	transform:scale(0.2,1);
-	-webkit-transition:all 500ms ease;
-	-moz-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition:all 500ms ease;
-	background: var(--main-color);
-    background: linear-gradient(to top, var(--main-color) 0%, var(--color-two) 100%);
+.pricing-block-title {
+    position: relative;
+    font-size: 14px;
+    padding: 5px 15px;
+    text-transform: capitalize;
+    color: var(--white-color);
+    display: inline-block;
+    transition: all 500ms ease;
+    border: 1px solid rgba(var(--white-color-rgb), 0.50);
 }
 
-.journal-block_one-inner:hover::before{
-	opacity:1;
-	transform:scale(1,1);
+.pricing-block-heading {
+    position: relative;
+    font-weight: 400;
+    margin-top: 18px;
+    max-width: 220px;
+    margin-bottom: 20px;
+    color: var(--white-color);
 }
 
-.journal-block_one-title{
-	position:relative;
-	font-size:14px;
-	padding:5px 15px;
-	text-transform:capitalize;
-	color:var(--white-color);
-	display:inline-block;
-	-webkit-transition:all 500ms ease;
-	-moz-transition:all 500ms ease;
-	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;
-	transition:all 500ms ease;
-	border: 1px solid rgba(var(--white-color-rgb), 0.50);
+.pricing-block-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: var(--white-color);
 }
 
-.journal-block_one-inner:hover .journal-block_one-title{
-	color:var(--white-color);
-	border-color:var(--color-four);
-	background-color:var(--color-four);
+.pricing-block-features li {
+    margin-bottom: 10px;
 }
 
-.journal-block_one-heading{
-	position:relative;
-	font-weight:400;
-	margin-top:18px;
-	max-width:220px;
-	margin-bottom:110px;
+.pricing-block-order {
+    position: relative;
+    color: var(--white-color);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-four);
+    transition: all 500ms ease;
 }
 
-.journal-block_one-heading a{
-	position:relative;
-	color:var(--white-color);
-}
-
-.journal-block_one-arrow{
-	position:absolute;
-	right:10px;
-	bottom:15px;
-	line-height:1em;
-	font-size:30px;
-	display:inline-block;
-	color:var(--white-color);
-	transform:rotate(45deg);
-}
-
-.journal-block_one-arrow:hover{
-	color:var(--color-four);
+.pricing-block-order:hover {
+    background-color: var(--main-color);
 }
 
 /*** 

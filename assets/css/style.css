@@ -24,6 +24,7 @@
 	Attachment Css Files
 ====================================================================
 
+
 ***/
 
 @import url('global.css');
@@ -116,6 +117,7 @@
 ====================================================================
 
 ***/
+
 
 .services-one{
 	position:relative;
@@ -1134,6 +1136,137 @@
 	color:#ff0000;
 	font-weight:500;	
 }
+
+/**
+/* Page Title  Contact*/
+.page-title {
+    background-color: #000; /* Black background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.page-title_heading {
+    font-size: 2.5em;
+    margin: 0;
+    color: #fff; /* White text */
+}
+
+.page-title_text {
+    font-size: 1.2em;
+    color: #ddd; /* Light grey text */
+}
+
+/* Contact One */
+.contact-one {
+    background-color: #000; /* Black background */
+    padding: 50px 0;
+    color: #fff; /* White text */
+}
+
+.contact-one_info-column {
+    padding: 20px;
+    background-color: #333; /* Darker background for the info column */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-one_info-outer {
+    margin-bottom: 20px;
+}
+
+.contact-one_heading {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #fff; /* White text */
+}
+
+.contact-one_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    color: #ccc; /* Light grey text */
+}
+
+.contact-one_list li {
+    margin-bottom: 10px;
+}
+
+.contact-one_list a {
+    color: #fff; /* White text for links */
+    text-decoration: none;
+}
+
+.contact-one_list a:hover {
+    text-decoration: underline;
+}
+
+.contact-one_socials {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+.contact-one_socials li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.contact-one_socials a {
+    color: #fff; /* White text for social links */
+    text-decoration: none;
+}
+
+.contact-one_socials a:hover {
+    text-decoration: underline;
+}
+
+.contact-one_form-column {
+    padding: 20px;
+}
+
+.contact-one_form-outer {
+    background-color: #333; /* Darker background for the form column */
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #555; /* Darker border */
+    border-radius: 4px;
+    background-color: #222; /* Darker background for inputs */
+    color: #fff; /* White text in inputs */
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    background-color: #007bff; /* Primary button color */
+    border: none;
+    color: #fff; /* White text */
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
 
 /*** 
 
